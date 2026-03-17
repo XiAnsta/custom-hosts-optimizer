@@ -10,8 +10,8 @@ assets = { directory = "public" }
 # 方式3：直接替换（仅私有仓库） - 将 YOUR_KV_NAMESPACE_ID 替换为实际 ID
 [[kv_namespaces]]
 binding = "custom_hosts"
-id = "YOUR_KV_NAMESPACE_ID"  # 保持不变，由 wrangler 或 GitHub Actions 自动处理
-preview_id = "YOUR_KV_NAMESPACE_ID"  # 预览环境 KV ID
+id = "2810cb279cb043e88c2445fafbc1bc81"  # 保持不变，由 wrangler 或 GitHub Actions 自动处理
+preview_id = "2810cb279cb043e88c2445fafbc1bc81"  # 预览环境 KV ID
 
 # 定时任务配置 - 每小时更新一次 hosts
 [triggers]
